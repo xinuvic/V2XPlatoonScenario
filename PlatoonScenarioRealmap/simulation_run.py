@@ -401,7 +401,7 @@ def main(leading_num,following_num,running_time,simulation_time,\
         plr_std_list.append(PlatoonPDRstd)
         dop_r2l2_list.append(dop_r2l2)
         std_dop_r2l2_list.append(std_dop_r2l2)    
-        nonplatoon_pdr_list.append(1-PDR)
+        nonplatoon_pdr_list.append(PDR)
         false_total_list.append(false_total)
         change_total_list.append(change_total)
         goodput_list_all.append(goodput_all_run)
